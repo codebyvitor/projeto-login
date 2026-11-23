@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #0F4CFF, #60A5FA);
+    }
+    section#login {
+        width: 80vw;
+    }
+
+    section#login div#imagem {
+        background: no-repeat var(--azul-principal) url(../imagens/logintablet.webp);
+        background-size: cover;
+        float: left;
+        width: 35%;
+        height: 100%;
+        background-position: center bottom;
+        margin-right: 10px;
+    }
+    div#formulario {
+        margin: 10px;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #0F4CFF, #60A5FA);
+    }
+    section#login {
+        width: 990px;
+    }
+    section#login div#imagem {
+        background: no-repeat url(../imagens/loginpc.webp);
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-size: cover;
+    }
+}
