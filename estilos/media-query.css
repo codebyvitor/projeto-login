@@ -1,57 +1,57 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body {
-        background-image: linear-gradient(to top, #0F4CFF, #60A5FA);
-    }
-    section#login {
-        width: 80vw;
-    }
+  body {
+    background-image: linear-gradient(to top, #0f4cff, #60a5fa);
+  }
+  section#login {
+    width: 80vw;
+  }
 
-    section#login div#imagem {
-        background: no-repeat var(--azul-principal) url(../imagens/logintablet.webp);
-        background-size: cover;
-        float: left;
-        width: 35%;
-        height: 100%;
-        background-position: center bottom;
-        margin-right: 40px;
-    }
-    section#login div#formulario {
-        height: 100%;
-        margin-right: 10px;
-        text-align: center;
-    }
-    div#formulario h1 {
-        font-size: 2em;
-    }
-    div#formulario p {
-        font-size: 1.1em;
-}
+  section#login div#imagem {
+    background: no-repeat var(--azul-principal) url(../imagens/logintablet.webp);
+    background-size: cover;
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-position: center bottom;
+    margin-right: 40px;
+  }
+  section#login div#formulario {
+    height: 100%;
+    margin-right: 10px;
+    text-align: center;
+  }
+  div#formulario h1 {
+    font-size: 2em;
+  }
+  div#formulario p {
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    body {
-        background-image: linear-gradient(to top, #0F4CFF, #60A5FA);
-    }
-    section#login {
-        width: 950px;
-    }
-    section#login div#formulario {
-        height: 100%;
-        margin-right: 10px;
-        text-align: center;
-        margin-top: 50px;
-    }
-    section#login div#imagem {
-        background: no-repeat url(../imagens/loginpc.webp);
-        float: right;
-        width: 40%;
-        height: 100%;
-        background-size: cover;
-    }
-    div#formulario h1 {
-        font-size: 2.6em;
-    }
-    div#formulario p {
-        font-size: 1.3em;
-}
+  body {
+    background-image: linear-gradient(to top, #0f4cff, #60a5fa);
+  }
+  section#login {
+    width: 950px;
+  }
+  section#login div#formulario {
+    height: 100%;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  section#login div#imagem {
+    background: no-repeat url(../imagens/loginpc.webp);
+    float: right;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+  }
+  div#formulario h1 {
+    font-size: 2.6em;
+  }
+  div#formulario p {
+    font-size: 1.3em;
+  }
 }
